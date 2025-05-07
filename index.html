@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+    .custom-placeholder::placeholder {
+      color: #ccc;
+      opacity: 1; /* Ensure full visibility */
+    }
+  </style>
+
+</head>
+<body> 
+    <section class="position-relative" style="height: 100vh; overflow: hidden;">
+        <!-- Background Image -->
+        <img src="PK-en-20250428-TRIFECTA-perspective_201100aa-236c-4da3-aa0d-69d0c0aa1cf2_large.jpg" alt="Hero Background"
+             class="position-absolute top-0 start-0 w-100 h-100"
+             style="object-fit: cover; z-index: 0;">
+      
+        <!-- Shadow at the top (not over navbar) -->
+        <img src="Hero image shadow.svg" alt="Top Shadow"
+             class="position-absolute top-0 start-0 w-100"
+             style="z-index: 1; pointer-events: none;">
+      
+        <!-- Navbar Content (logo + button) -->
+        <nav class="navbar bg-transparent position-relative z-2">
+          <div class="container ">
+            <a class="navbar-brand" href="#">
+              <img src="netflixlogo.png" alt="Logo" width="148" height="48"
+                   class="d-inline-block align-text-top">
+            </a>
+            <button class="btn  text-white fw-bold" type="button" style="background-color: red;">Sign Up</button>
+            
+            <div class="container d-flex flex-column justify-content-center align-items-center text-center" style="height: 85vh; ">
+                <h1 class="fw-bolder text-white  " style="font-size: 58px;">Unlimited movies, TV <br>shows, and more</h1>
+
+                <p class="text-white fs-4">Watch anywhere. Cancel anytime.</p>
+                <p class="text-white fw-bold">Ready to watch? Enter your email to create or restart your membership.</p>
+
+                <div class="container d-flex gap-4" style="width: 565px; ">
+
+                    <input type="email"
+                    class="form-control bg-transparent mb-2 custom-placeholder"
+                    placeholder="Email address"
+                    style="height: 56px; color: white;">
+                     
+                    <button class="btn text-white " type="button" style="background-color: red; height: 56px; width: 250px; font-weight: bolder; font-size: 22px;">Get Started</button>
+
+                 </div>
+                  
+            </div>
+          
+          </div>
+        </nav>
+      </section>
+      <section class="d-flex justify-content-center align-items-center" style="height: 124px; background: linear-gradient(90deg, rgba(6, 17, 97, 1) 14%, rgba(120, 2, 6, 1) 49%, rgba(6, 17, 97, 1) 86%);">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-center gap-3">
+                <img src="popcorn.svg" alt="popcorn" style="width: 90px; height: 90px;">
+                <div class="text-white text-center text-md-start">
+                    <h4 class="mb-1">The Netflix you love for just $6.99</h4>
+                    <p class="mb-0">Get the Standard with ads plan.</p>
+                    <a href="#" class="text-white">learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid p-0 bg-black d-flex flex-row justify-content-center align-items-center" style="height: 100vh;">
+            <div class="flex-row align-items-center d-flex">
+
+                <div class="text-white text-start w-546px h-138px">
+
+                    <h1 class="text-startr fw-bold text-white">Enjoy on your TV.</h1>
+                    <p class="text-start text-white fs-3">Watch on Smart TVs, Playstation, Xbox,<br> Chromecast, Apple TV, Blu-ray players, and more.</p>
+                </div>
+                <div class="position-relative">
+
+                    <img src="tvimg.png" alt="tvImage">
+                    <img src="tv.png" alt="tv" class="position-absolute top-50 start-50 translate-middle z-index-2">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid p-0 bg-black d-flex flex-row justify-content-center align-items-center" style="height: 100vh;">
+            <div class="flex-row-reverse align-items-center d-flex">
+
+                <div class="text-white text-start w-546px h-138px gap-5 ">
+
+                    <h1 class="text-startr fw-bold text-white">Watch every where.</h1>
+                    <p class="text-start text-white fs-3 ">Stream unlimited movies and TV shows on your phone,<br> tablet, laptop, and TV. </p>
+                </div>
+                <div class="position-relative">
+
+                    <img src="Frame 45.png" alt="tvImage">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid p-0 bg-black d-flex flex-row justify-content-center align-items-center" style="height: 100vh;">
+            <div class="flex-row align-items-center d-flex">
+
+                <div class="text-white text-start w-546px h-138px gap-5 ">
+
+                    <h1 class="text-startr fw-bold text-white">create profiles for kids.</h1>
+                    <p class="text-start text-white fs-3 ">Send kids on adventures with their favorite <br>characters in a space made just for them—free <br> with your membership. </p>
+                </div>
+                <div class="position-relative">
+
+                    <img src="kids.png" alt="kids">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid p-0 bg-black d-flex flex-row justify-content-center align-items-center" style="height: 100vh;">
+            <div class="flex-row-reverse align-items-center d-flex">
+
+                <div class="text-white text-start w-546px h-138px">
+
+                    <h1 class="text-startr fw-bold text-white">Download your shows<br>to watch offline.</h1>
+                    <p class="text-start text-white fs-3">Watch on a plane, train or a submarine.</p>
+                </div>
+                <div class="position-relative">
+
+                    <img src="mobile.png" alt="tvImage">
+                    <img src="Screens Preview.png" alt="tv" class="position-absolute top-100 start-50 translate-middle z-index-2">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid p-0 bg-black d-flex flex-column justify-content-center align-items-center" style="min-height: 100vh;">
+          <div class="d-flex flex-column align-items-center w-100 px-3 gap-3">
+            <h1 class="text-center fw-bold text-white mb-4">Frequently Asked Questions</h1>
+      
+            <div class="container bg-dark text-white p-4 rounded d-flex justify-content-between align-items-center" style="max-width: 1104px; height: 74px;">
+                <p class="mb-0  " style="font-size: 24px;">What is Netflix?</p>
+                <img src="vector.png" alt="plus" style="width: 24px; height: 24px; cursor: pointer; ">
+              </div>
+
+              <div class="container bg-dark text-white p-4 rounded d-flex justify-content-between align-items-center" style="max-width: 1104px; height: 74px;">
+                <p class="mb-0 " style="font-size: 24px;">How much does Netflix cost?</p>
+                <img src="vector.png" alt="plus" style="width: 24px; height: 24px; cursor: pointer;">
+              </div>
+
+              <div class="container bg-dark text-white p-4 rounded d-flex justify-content-between align-items-center" style="max-width: 1104px; height: 74px;">
+                <p class="mb-0 " style="font-size: 24px;">Where can I watch?</p>
+                <img src="vector.png" alt="plus" style="width: 24px; height: 24px; cursor: pointer;">
+              </div>
+
+              <div class="container bg-dark text-white p-4 rounded d-flex justify-content-between align-items-center" style="max-width: 1104px; height: 74px;">
+                <p class="mb-0 " style="font-size: 24px;">how do I cancel?</p>
+                <img src="vector.png" alt="plus" style="width: 24px; height: 24px; cursor: pointer;">
+              </div>
+
+              <div class="container bg-dark text-white p-4 rounded d-flex justify-content-between align-items-center" style="max-width: 1104px; height: 74px;">
+                <p class="mb-0 " style="font-size: 24px;">how can i watch on Netflix?</p>
+                <img src="vector.png" alt="plus" style="width: 24px; height: 24px; cursor: pointer;">
+              </div>
+
+              <div class="container bg-dark text-white p-4 rounded d-flex justify-content-between align-items-center" style="max-width: 1104px; height: 74px;">
+                <p class="mb-0 " style="font-size: 24px;">Is Netflix good for kids?</p>
+                <img src="vector.png" alt="plus" style="width: 24px; height: 24px; cursor: pointer;">
+              </div>
+
+              <p class="text-white fw-bold">Ready to watch? Enter your email to create or restart your membership.</p>
+
+                <div class="container d-flex gap-4" style="width: 765px; ">
+
+                    <input type="email"
+                    class="form-control bg-transparent mb-2 custom-placeholder"
+                    placeholder="Email address"
+                    style="height: 56px; color: white;">
+                     
+                    <button class="btn text-white " type="button" style="background-color: red; height: 56px; width: 250px; font-weight: bolder; font-size: 22px;">Get Started</button>
+
+                 </div>
+      
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container-fluid p-0 bg-black text-white px-5 py-5" style="line-height: 35px;">
+            
+
+            
+            <div class="text-start mb-4 ">
+                <p>Questions? Call <a href="">000-800-040-1843</a> </p>
+            </div>
+            <div class="flex-row d-flex gap-5 ">
+
+                <div class="text-start col-md-3">
+                    <ul class="list-unstyled">
+                      <li><a href="#" class="text-white  d-block py-1">FAQ</a></li>
+                      <li><a href="#" class="text-white  d-block py-1">Investor Relations</a></li>
+                      <li><a href="#" class="text-white  d-block py-1">Buy Gift Cards</a></li>
+                      <li><a href="#" class="text-white  d-block py-1">Cookies Preferences</a></li>
+                      <li><a href="#" class="text-white  d-block py-1">Legal Notice</a></li>
+                    </ul>
+                  </div>
+                  
+                  <div class="col-md-3">
+                    <ul class="list-unstyled">
+                      <li><a href="#" class="text-white d-block py-1">Help Center</a></li>
+                      <li><a href="#" class="text-white d-block py-1">Jobs</a></li>
+                      <li><a href="#" class="text-white d-block py-1">Ways to Watch</a></li>
+                      <li><a href="#" class="text-white d-block py-1">Corporate Information</a></li>
+                      <li><a href="#" class="text-white d-block py-1">Only on Netflix</a></li>
+                    </ul>
+                  </div>
+                  
+                  <div class="col-md-3">
+                    <ul class="list-unstyled">
+                      <li><a href="#" class="text-white d-block py-1">Account</a></li>
+                      <li><a href="#" class="text-white d-block py-1">Netflix Shop</a></li>
+                      <li><a href="#" class="text-white d-block py-1">Terms of Use</a></li>
+                      <li><a href="#" class="text-white d-block py-1">Contact Us</a></li>
+                      <li><a href="#" class="text-white d-block py-1">Do Not Sell or Share Personal Information</a></li>
+                    </ul>
+                  </div>
+                  
+                  <div class="col-md-2">
+                    <ul class="list-unstyled">
+                      <li><a href="#" class="text-white d-block py-1">Media Center</a></li>
+                      <li><a href="#" class="text-white d-block py-1">Redeem Gift Cards</a></li>
+                      <li><a href="#" class="text-white d-block py-1">Privacy</a></li>
+                      <li><a href="#" class="text-white d-block py-1">Speed Test</a></li>
+                      <li><a href="#" class="text-white d-block py-1">Ad Choices</a></li>
+                    </ul>
+                  </div>
+                  
+        </div>
+        </div>
+      </section>
+      
+      
+    </div>
+</body>
+</html>
